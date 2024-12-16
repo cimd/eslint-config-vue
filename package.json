@@ -1,0 +1,29 @@
+{
+  "name": "@konnec/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "Default Konnec rules for ESLint",
+  "keywords": ["eslint", "eslintconfig", "konnec", "vue"],
+  "main": "index.js",
+  "author": "Christian D'Aquino",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin-js": "^2.12.1",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
+}
